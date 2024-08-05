@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Slider } from "@/components/ui/slider"
-import { Bitcoin, Dice } from "lucide-react"
+import { Bitcoin, DiceIcon } from "lucide-react"
 
 const Index = () => {
   const [betAmount, setBetAmount] = useState(0.001);
@@ -22,7 +22,7 @@ const Index = () => {
       <Card className="w-full max-w-md">
         <CardHeader>
           <CardTitle className="flex items-center">
-            <Dice className="mr-2" /> Dice Game
+            <DiceIcon className="mr-2" /> Dice Game
           </CardTitle>
           <CardDescription>Try your luck with our provably fair dice game!</CardDescription>
         </CardHeader>
